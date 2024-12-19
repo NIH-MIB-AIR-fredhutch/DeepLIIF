@@ -9,11 +9,10 @@
 ![Version](https://img.shields.io/static/v1?label=latest&message=v1.1.11&color=darkgreen)
 [![Total Downloads](https://static.pepy.tech/personalized-badge/deepliif?period=total&units=international_system&left_color=grey&right_color=blue&left_text=total%20downloads)](https://pepy.tech/project/deepliif?&left_text=totalusers)
 
-* This is a modified repository of DeepLIIF, with modifications to enable WSI inference using OpenSlide library and produces QuPath compatible outputs. Please reference original repository for more information*
+**This is a modified repository of DeepLIIF, with modifications to enable WSI inference using OpenSlide library and produces QuPath compatible outputs. Please reference original repository for more information**
 
 ## Prerequisites
 1. Python 3.8
-2. Docker
 
 ## Installing `deepliif`
 
