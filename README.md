@@ -22,6 +22,11 @@ $ conda create --name deepliif_env python=3.8
 $ conda activate deepliif_env
 (deepliif_env) $ conda install -c conda-forge openjdk
 (deepliif_env) $ pip install deepliif
+(deepliif_env) $ pip install openslide-bin
+(deepliif_env) $ pip install openslide-python
+(deepliif_env) $ pip install geojson
+(deepliif_env) $ pip install pandas
+(deepliif_env) $ pip install shapely
 ```
 
 ## Support
