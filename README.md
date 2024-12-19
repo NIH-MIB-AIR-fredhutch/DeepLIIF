@@ -28,6 +28,8 @@ $ conda activate deepliif_env
 (deepliif_env) $ pip install pandas
 (deepliif_env) $ pip install shapely
 ```
+## WSI Inference
+python test_WSI_json.py 
 
 ## Support
 Please use the [GitHub Issues](https://github.com/nadeemlab/DeepLIIF/issues) tab for discussion, questions, or to report bugs related to DeepLIIF.
