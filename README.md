@@ -29,7 +29,7 @@ $ conda activate deepliif_env
 (deepliif_env) $ pip install shapely
 ```
 ## Pre-trained models
-The latest version of the pretrained models can be downloaded here: https://zenodo.org/records/4751737#.YKRTS0NKhH4
+The latest version of the pretrained models can be downloaded here: https://zenodo.org/records/4751737#.YKRTS0NKhH4  and should be placed in DeepLIIF/model-server folder
 
 ## WSI Inference
 python test_WSI_json.py 
