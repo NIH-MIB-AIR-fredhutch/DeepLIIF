@@ -401,12 +401,12 @@ def test(checkpoints_dir,name,file_location,mag_extract,tile_size,json_location,
     slide_ROIS(polygons=polygons_pos, edges=edge_polygons_pos,
                     mpp=float(oslide.properties[openslide.PROPERTY_NAME_MPP_X]),
                     savename=os.path.join(save_location, save_name + '_deepliif_pos.json'),
-                    labels='cp_nuc', ref=offset, roi_color=-16711936)
+                    labels='pos', ref=offset, roi_color=-16711936)
 
     slide_ROIS(polygons=polygons_neg, edges=edge_polygons_neg,
                     mpp=float(oslide.properties[openslide.PROPERTY_NAME_MPP_X]),
                     savename=os.path.join(save_location, save_name + '_deepliif_neg.json'),
-                    labels='cp_nuc', ref=offset, roi_color=-16711936)
+                    labels='neg', ref=offset, roi_color=-16711936)
 
 
 
